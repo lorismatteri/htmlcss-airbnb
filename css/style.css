@@ -1,3 +1,17 @@
-body {
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.container {
   background: red;
+  border: 1px solid black;
+  height: 90vh;
+}
+
+div.milano {
+  background-image: url('../img/milano.jpg');
+  background-size: cover;
 }
