@@ -6,15 +6,25 @@
 }
 
 .container {
-  background: red;
+  /* background: red; */
   margin: 8px;
   border: 1px solid black;
-  height: 90vh;
+  height: 80vh;
   position: relative;
 }
 
 div.milano {
   background-image: url('../img/milano.jpg');
+  background-size: cover;
+}
+
+div.roma {
+  background-image: url('../img/roma.jpg');
+  background-size: cover;
+}
+
+div.napoli {
+  background-image: url('../img/napoli.jpg');
   background-size: cover;
 }
 
