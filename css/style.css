@@ -12,6 +12,7 @@
   height: 80vh;
   position: relative;
   cursor: pointer;
+  box-shadow: 5px 5px 10px black;
 }
 
 div.milano {
