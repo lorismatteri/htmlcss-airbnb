@@ -7,10 +7,11 @@
 
 .container {
   /* background: red; */
-  margin: 8px;
+  margin: 15px;
   border: 1px solid black;
   height: 80vh;
   position: relative;
+  cursor: pointer;
 }
 
 div.milano {
@@ -25,6 +26,11 @@ div.roma {
 
 div.napoli {
   background-image: url('../img/napoli.jpg');
+  background-size: cover;
+}
+
+div.amsterdam {
+  background-image: url('../img/amsterdam.png');
   background-size: cover;
 }
 
@@ -49,4 +55,8 @@ div.overlay {
 div.title h1 {
   color: white;
   text-shadow: 5px 5px black;
+}
+
+.container:hover .title {
+  border-bottom: 3px solid #66ff33;
 }
