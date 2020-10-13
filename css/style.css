@@ -5,11 +5,22 @@
   font-family: arial;
 }
 
+body {
+  background: #ededed;
+  width: 400px;
+  margin: auto;
+}
+
+#site_content {
+  text-align: center;
+}
+
 .container {
   /* background: red; */
   margin: 15px;
   border: 1px solid black;
-  height: 80vh;
+  height: 300px;
+  width: 400px;
   position: relative;
   cursor: pointer;
   box-shadow: 5px 5px 10px black;
@@ -18,21 +29,26 @@
 div.milano {
   background-image: url('../img/milano.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 div.roma {
   background-image: url('../img/roma.jpg');
   background-size: cover;
+  background-position: center;
+
 }
 
 div.napoli {
   background-image: url('../img/napoli.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 div.amsterdam {
   background-image: url('../img/amsterdam.png');
   background-size: cover;
+  background-position: center;
 }
 
 div.overlay {
@@ -45,7 +61,7 @@ div.overlay {
 }
 .title {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.25em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -53,9 +69,13 @@ div.overlay {
 }
 
 
-div.title h1 {
+div.title h2 {
   color: white;
   text-shadow: 5px 5px black;
+}
+
+.container:hover .overlay {
+  background: rgba(0, 0, 0, 0);
 }
 
 .container:hover .title {
